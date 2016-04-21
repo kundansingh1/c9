@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.1",
+  "description": "test npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundansingh1/node.git"
+  },
+  "keywords": [
+    "npm",
+    "how",
+    "test",
+    "learn"
+  ],
+  "author": "kundan singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kundansingh1/node/issues"
+  },
+  "homepage": "https://github.com/kundansingh1/node#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
