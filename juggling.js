@@ -9,6 +9,7 @@ var lengthRev = 2;
 var result = juggling(url1);
 
 function juggling (url) {
+
     http.get(url, function(response) {
         var responseData = '';
         response.setEncoding('utf8');
