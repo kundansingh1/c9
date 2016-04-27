@@ -2,7 +2,8 @@
 1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.3.2/bin/node',
 1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.3.2/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   'through2-map' ]
+1 verbose cli   'through2-map',
+1 verbose cli   '--save' ]
 2 info using npm@3.8.6
 3 info using node@v4.3.2
 4 silly loadCurrentTree Starting
@@ -23,14 +24,14 @@
 13 silly mapToRegistry uri http://localhost:15443/through2-map
 14 verbose request uri http://localhost:15443/through2-map
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 12:29:44 AM
-17 verbose request id 8bb11ca7637512eb
+16 info attempt registry request try #1 at 8:45:37 AM
+17 verbose request id 64f8934469c24078
 18 http request GET http://localhost:15443/through2-map
 19 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
-20 info attempt registry request try #2 at 12:29:54 AM
+20 info attempt registry request try #2 at 8:45:47 AM
 21 http request GET http://localhost:15443/through2-map
 22 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
-23 info attempt registry request try #3 at 12:30:54 AM
+23 info attempt registry request try #3 at 8:46:47 AM
 24 http request GET http://localhost:15443/through2-map
 25 silly fetchPackageMetaData Error: connect ECONNREFUSED 127.0.0.1:15443
 25 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
@@ -53,7 +54,7 @@
 31 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1062:14)
 32 verbose cwd /home/ubuntu/workspace/npm
 33 error Linux 4.2.0-c9
-34 error argv "/home/ubuntu/.nvm/versions/node/v4.3.2/bin/node" "/home/ubuntu/.nvm/versions/node/v4.3.2/bin/npm" "install" "through2-map"
+34 error argv "/home/ubuntu/.nvm/versions/node/v4.3.2/bin/node" "/home/ubuntu/.nvm/versions/node/v4.3.2/bin/npm" "install" "through2-map" "--save"
 35 error node v4.3.2
 36 error npm  v3.8.6
 37 error code ECONNREFUSED
