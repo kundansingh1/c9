@@ -6,7 +6,6 @@ http.createServer(function (req, res) {
       pathname = urlObj.pathname,
       strtime = urlObj.query.iso,
       result;
-
   if (pathname === '/api/unixtime') {
      result = getUnixTimestamp(strtime);
   }
