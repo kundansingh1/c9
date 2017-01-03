@@ -10,9 +10,8 @@ http.createServer(function (req, res) {
      result = getUnixTimestamp(strtime);
   }
   else if (pathname === '/api/parsetime') {
-    result = getTimeObj(strtime);
+    result = getTimeObj(strtime); // cool
   }
-
   if (result) {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify(result));
